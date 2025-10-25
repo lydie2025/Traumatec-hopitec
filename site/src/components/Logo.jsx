@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImg from '../assets/logo.jpeg';
+/*import logoImg from '../assets/logo.jpeg';*/
 
 const Logo = ({ size = 'medium', showText = true, className = '' }) => {
   const getSizeStyles = () => {
@@ -30,15 +30,16 @@ const Logo = ({ size = 'medium', showText = true, className = '' }) => {
 
   return (
     <div className={`logo-container ${className}`} style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+      
       <img 
-        src={logoImg} 
+       /* src={logoImg} 
         alt="Traumatec/Hopitec logo"
         style={{
           ...getSizeStyles(),
           objectFit: 'cover',
           borderRadius: '8px',
           boxShadow: 'var(--shadow-sm)'
-        }}
+        }}*/
       />
       
       {showText && (

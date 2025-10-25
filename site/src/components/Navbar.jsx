@@ -48,7 +48,7 @@ const Navbar = () => {
                   className={isActive('/') ? 'active' : ''}
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Accueil
+                  
                 </Link>
               </li>
               <li>
